@@ -1,20 +1,35 @@
 # Project Brief
 
-## Engagement Details
-| Field | Detail |
-|---|---|
-| Project ID | MTL-XF-015 |
-| Project Title | Housing Energy Efficiency, Consumption & Retrofit Prioritisation Intelligence |
-| Client | Confidential Regional Housing & Net Zero Investment Authority |
-| Sector | Housing / Energy / Net Zero |
-| Duration | 8 weeks |
-| Recommended Team Size | 6–8 |
-| Primary Sponsor | Director of Housing Investment |
-| Senior Stakeholders | Head of Asset Management, Net Zero Programme Lead, Finance Business Partner, Housing Strategy Lead, Data Governance Lead, Energy Analyst, BI & Insight Lead |
-| Primary Dataset | National Energy Efficiency Data-Framework (NEED) Anonymised Data 2026 — 50,000-row sample |
+## 1. Business Problem
 
-## 1. Client Situation
-The authority has a constrained retrofit budget and cannot fund every eligible property. Previous prioritisation relies too heavily on headline efficiency ratings, with limited use of actual consumption, property characteristics or intervention history.
+The housing authority has more potential retrofit opportunities than available budget. Existing investment discussions rely heavily on energy-efficiency labels or broad property categories, but these do not provide a complete picture of where energy consumption is highest or which property segments may warrant further intervention assessment.
+
+If prioritisation is based on a single rating or opaque scoring model, the authority risks directing investment inefficiently or introducing unintended bias through proxy variables such as geography or property characteristics.
+
+The business problem is to create an explainable portfolio-level evidence base that combines consumption, property characteristics and efficiency-measure history while keeping the final investment decision under human control.
+
+## What the Team Needs to Do
+
+The team is expected to build a responsible retrofit-prioritisation decision-support product.
+
+The work should include:
+- defining investment constraints, users and decision criteria;
+- building a governed property-level analytical dataset;
+- documenting consumption, property and efficiency-measure fields;
+- analysing energy consumption by property segment;
+- identifying high-consumption and potentially improvable segments;
+- designing an explainable prioritisation framework;
+- comparing at least three alternative weighting/scenario configurations;
+- performing a proxy/fairness review;
+- identifying data that is missing for a true investment case, such as intervention cost, tenure or household vulnerability;
+- building scenario-based BI that clearly separates observed data from assumptions;
+- completing model-governance review, UAT and handover.
+
+## Practical Use Case
+
+The finished product should support an investment-planning workshop. A Housing Investment Director should be able to compare scenarios such as prioritising the highest-consumption property segments versus balancing consumption with known efficiency measures, see how the priority list changes, and understand which variables are driving the result.
+
+The tool should support feasibility review and portfolio planning. It must not automatically allocate funding or claim that a retrofit intervention will definitely reduce consumption.
 
 ## 2. Business Decision
 > **Which property segments should receive retrofit investment first to maximise defensible energy-efficiency benefit while keeping the prioritisation transparent, explainable and fair?**
